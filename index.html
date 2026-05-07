@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Reis | Nail Designer & Design Facial</title>
+  <meta name="description" content="Ana Reis - Especialista em Nail Design e Design Facial. Transforme suas unhas e realce sua beleza com técnicas exclusivas e atendimento premium.">
+  <meta property="og:title" content="Ana Reis | Nail Designer & Design Facial">
+  <meta property="og:description" content="Especialista em Nail Design e Design Facial. Agende seu horário.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💅</text></svg>">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">Ana <span>Reis</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="valores.html">Procedimentos</a></li>
+      <li><a href="https://www.instagram.com/vitooria_aana" target="_blank">@vitooria_aana</a></li>
+      <li><a href="https://wa.me/message/KXD7A6QAEFQXK1" class="nav-cta">Agendar Horário</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMenu()">Início</a>
+    <a href="sobre.html" onclick="closeMenu()">Sobre</a>
+    <a href="valores.html" onclick="closeMenu()">Procedimentos</a>
+    <a href="https://www.instagram.com/vitooria_aana" target="_blank" onclick="closeMenu()">Instagram</a>
+    <a href="https://wa.me/message/KXD7A6QAEFQXK1" class="btn-primary" onclick="closeMenu()">Agendar Horário</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <img src="assets/images/ana-reis-hero-v2.png" alt="Ana Reis - Nail Designer e Design Facial" class="hero-bg-image">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ Nail Design & Design Facial ✦</div>
+      <h1>Arte que nasce nas <em>suas mãos</em> e realça a sua <em>beleza</em></h1>
+      <p class="hero-sub">Cada detalhe é pensado para transformar suas unhas em verdadeiras obras de arte e realçar os traços mais bonitos do seu rosto — com técnica, delicadeza e muito carinho.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/message/KXD7A6QAEFQXK1" class="btn-primary">✦ Agendar Horário</a>
+        <a href="valores.html" class="btn-secondary">Ver Procedimentos</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE PREVIEW -->
+  <section class="section section-light" id="sobre">
+    <div class="about-grid">
+      <div class="about-image-wrapper reveal-left">
+        <img src="assets/images/unhas-rosa.jpg" alt="Trabalho de nail design por Ana Reis - unhas decoradas rosa com glitter" class="about-image" loading="lazy">
+      </div>
+      <div class="about-text reveal-right">
+        <div class="section-tag">Sobre Mim</div>
+        <h2>Olá, eu sou <em>Ana Reis</em></h2>
+        <p>Sou apaixonada por transformar detalhes em arte. Especialista em Nail Design e Design Facial, acredito que cada pessoa carrega uma beleza única que merece ser realçada com cuidado e exclusividade.</p>
+        <p>Meu trabalho vai além da estética: é sobre criar uma experiência que eleve sua autoestima e faça você se sentir confiante e radiante. Cada procedimento é personalizado, porque você merece um atendimento que respeite sua individualidade.</p>
+        <a href="sobre.html" class="btn-primary" style="margin-top:1rem;">Conheça Minha História</a>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Clientes Felizes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">1000+</span>
+            <span class="stat-label">Procedimentos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section class="section section-dark" id="portfolio">
+    <div class="section-header reveal">
+      <div class="section-tag">Portfólio</div>
+      <h2 class="section-title">Meus trabalhos falam <em>por mim</em></h2>
+      <p class="section-subtitle">Cada design é único e feito com dedicação para realçar a personalidade de cada cliente.</p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item reveal">
+        <img src="assets/images/unhas-vermelhas.jpg" alt="Nail design vermelho com corações e detalhes dourados" loading="lazy">
+        <div class="portfolio-overlay">
+          <h3>Red Love</h3>
+          <p>Nail Art Premium</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <img src="assets/images/unhas-pretas.jpg" alt="Nail design preto com glitter prateado e corações" loading="lazy">
+        <div class="portfolio-overlay">
+          <h3>Dark Elegance</h3>
+          <p>Nail Art Premium</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <img src="assets/images/unhas-rosa.jpg" alt="Nail design rosa com glitter e francesinha branca" loading="lazy">
+        <div class="portfolio-overlay">
+          <h3>Rose Glow</h3>
+          <p>Nail Art Premium</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal">
+        <img src="assets/images/unhas-cinza.jpg" alt="Nail design cinza escuro com detalhes dourados" loading="lazy">
+        <div class="portfolio-overlay">
+          <h3>Grey Gold</h3>
+          <p>Nail Art Premium</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS PREVIEW -->
+  <section class="section section-dark-2" id="servicos">
+    <div class="section-header reveal">
+      <div class="section-tag">Serviços</div>
+      <h2 class="section-title">Procedimentos <em>exclusivos</em> para você</h2>
+      <p class="section-subtitle">Técnicas avançadas e produtos de alta qualidade para resultados que encantam.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">💅</div>
+        <h3>Alongamento em Gel</h3>
+        <div class="price">R$ 150</div>
+        <div class="price-note">a partir de</div>
+        <ul class="pricing-features">
+          <li>Molde personalizado</li>
+          <li>Gel de alta durabilidade</li>
+          <li>Acabamento premium</li>
+          <li>Duração de até 30 dias</li>
+        </ul>
+        <a href="https://wa.me/message/KXD7A6QAEFQXK1" class="pricing-btn pricing-btn-outline">Agendar Horário</a>
+      </div>
+      <div class="pricing-card featured reveal">
+        <div class="pricing-icon">✨</div>
+        <h3>Nail Art Personalizada</h3>
+        <div class="price">R$ 180</div>
+        <div class="price-note">a partir de</div>
+        <ul class="pricing-features">
+          <li>Design exclusivo</li>
+          <li>Pedrarias e glitter premium</li>
+          <li>Técnicas 3D e hand-painted</li>
+          <li>Acabamento impecável</li>
+        </ul>
+        <a href="https://wa.me/message/KXD7A6QAEFQXK1" class="pricing-btn pricing-btn-filled">Agendar Horário</a>
+      </div>
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🌟</div>
+        <h3>Design Facial</h3>
+        <div class="price">R$ 80</div>
+        <div class="price-note">a partir de</div>
+        <ul class="pricing-features">
+          <li>Design de sobrancelhas</li>
+          <li>Harmonização do rosto</li>
+          <li>Técnica personalizada</li>
+          <li>Resultado natural</li>
+        </ul>
+        <a href="https://wa.me/message/KXD7A6QAEFQXK1" class="pricing-btn pricing-btn-outline">Agendar Horário</a>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:3rem;" class="reveal">
+      <a href="valores.html" class="btn-secondary">Ver Todos os Procedimentos e Valores →</a>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="section section-dark" id="depoimentos">
+    <div class="section-header reveal">
+      <div class="section-tag">Depoimentos</div>
+      <h2 class="section-title">Minhas clientes <em>falam por mim</em></h2>
+    </div>
+    <div class="testimonials-container">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+        <p class="testimonial-text">"A Ana é incrível! Minhas unhas ficaram perfeitas, exatamente como eu queria. O atendimento é maravilhoso e o ambiente super acolhedor."</p>
+        <div class="testimonial-author">Mariana S.</div>
+        <div class="testimonial-role">Cliente desde 2023</div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+        <p class="testimonial-text">"Melhor nail designer que já conheci! O design facial ficou impecável, super natural e harmonioso. Recomendo demais!"</p>
+        <div class="testimonial-author">Juliana M.</div>
+        <div class="testimonial-role">Cliente desde 2022</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="reveal">
+      <div class="section-tag">Pronta para se transformar?</div>
+      <h2 class="section-title">Agende seu <em>horário</em> agora</h2>
+      <p>Entre em contato e descubra como posso realçar sua beleza com técnica e carinho.</p>
+      <a href="https://wa.me/message/KXD7A6QAEFQXK1" class="btn-primary" style="position:relative;">✦ Agendar Horário</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Ana Reis</h3>
+        <p>Especialista em Nail Design e Design Facial. Transformando beleza com técnica, delicadeza e arte.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/vitooria_aana" target="_blank" aria-label="Instagram">📸</a>
+          <a href="https://wa.me/message/KXD7A6QAEFQXK1" target="_blank" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="valores.html">Procedimentos</a>
+      </div>
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <a href="valores.html">Alongamento em Gel</a>
+        <a href="valores.html">Nail Art</a>
+        <a href="valores.html">Design Facial</a>
+        <a href="valores.html">Esmaltação em Gel</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <a href="https://www.instagram.com/vitooria_aana" target="_blank">@vitooria_aana</a>
+        <a href="https://wa.me/message/KXD7A6QAEFQXK1">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Ana Reis — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
