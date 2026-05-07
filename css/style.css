@@ -525,10 +525,32 @@ body {
     object-fit: cover;           /* preenche sem cortar a pessoa */
     object-position: center top; /* mantém o rosto visível */
     z-index: 0;
+    /* ============================================================
+   MOBILE HERO FIX — Ana Reis
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+  .hero {
+    position: relative;
+    min-height: 100svh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-bg-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    z-index: 0;
     pointer-events: none;
   }
 
-  /* --- Overlay escuro para legibilidade do texto --- */
   .hero::before {
     content: '';
     position: absolute;
@@ -542,7 +564,6 @@ body {
     z-index: 1;
   }
 
-  /* --- Partículas e conteúdo ficam acima do overlay --- */
   .hero-particles,
   .hero-content,
   .hero-scroll {
@@ -550,14 +571,12 @@ body {
     z-index: 2;
   }
 
-  /* --- Conteúdo centralizado e com espaçamento adequado --- */
   .hero-content {
     text-align: center;
     padding: 6rem 1.5rem 4rem;
     max-width: 100%;
   }
 
-  /* --- Botões: empilhados e tamanho confortável para toque --- */
   .hero-buttons {
     display: flex;
     flex-direction: column;
@@ -576,7 +595,6 @@ body {
   }
 }
 
-/* Telas muito pequenas (ex.: iPhone SE, 375px) */
 @media (max-width: 390px) {
   .hero-content h1 {
     font-size: clamp(1.6rem, 7vw, 2.2rem);
